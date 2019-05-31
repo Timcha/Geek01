@@ -36,7 +36,7 @@ while answer not in ['N', 'n']:
             x_curr = R*math.sin(angle_rad)
             y_curr = R*math.cos(angle_rad)
             gotoxy(x_init + x_curr, y_init + y_curr + 60)
-            draw_circle(r, 'brown')
+            draw_circle(r, 'red')
             draw_circle(r, 'white')
 
         gotoxy(x_init + x_curr, y_init + y_curr + 60)
